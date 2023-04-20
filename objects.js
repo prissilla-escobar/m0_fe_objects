@@ -109,3 +109,29 @@ console.log(Object.values(email))
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+emails = [
+{
+  sender : "Turing@turing.edu",
+  time : "12:05pm",
+  subject : "You're accepted!",
+  carbonCopy : "kaitlyn@turing.edu",
+  blindCarbonCopy : "tamika@turing.edu"
+},
+{
+  sender : "denver@denver.com",
+  time : "8:09pm",
+  subject : "Parking ticket",
+  carbonCopy : "pri@turing.edu",
+  blindCarbonCopy : "rach@turing.edu"  
+},
+{
+  sender : "taylor@swift.com",
+  time : "1:13am",
+  subject : "New Album",
+  carbonCopy : "pri@taylor.edu",
+  blindCarbonCopy : "rach@taylor.edu" 
+}
+];
+console.log(emails)
+console.log(emails[0])
