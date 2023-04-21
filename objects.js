@@ -44,7 +44,7 @@ var email = {
   time : "12:05pm",
   subject : "You're accepted!",
   carbonCopy : "kaitlyn@turing.edu",
-  blindCarbonCopy : "tamika@turing.edu"
+  blindCarbonCopy : "dan@turing.edu"
 }
 
 // Write code that logs your email object to the terminal.
@@ -110,7 +110,7 @@ console.log(Object.values(email))
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
 
-emails = [
+var emails = [
 {
   sender : "Turing@turing.edu",
   time : "12:05pm",
@@ -133,5 +133,5 @@ emails = [
   blindCarbonCopy : "rach@taylor.edu" 
 }
 ];
-console.log(emails)
-console.log(emails[0])
+// console.log(emails)
+console.log(emails[2])
